@@ -170,6 +170,15 @@ ul {
   padding-bottom: 200px;
   background-color: var(--bg-color);
   text-align: center;
+
+  background-image: url(../images/hero.jpg);
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -207,7 +216,7 @@ ul {
   color: var(--text-white-color);
 }
 
-.overlay {
+/* .overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: 0 auto;
@@ -216,7 +225,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* функції */
 
@@ -227,6 +236,10 @@ ul {
 .feature-content:not(:last-child) {
   margin-right: var(--card-set-marg);
   max-width: 270px;
+}
+
+.feature-connent {
+  margin-bottom: 30px;
 }
 
 .feature-items .title {
