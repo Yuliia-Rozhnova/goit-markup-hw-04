@@ -124,8 +124,8 @@ ul {
 }
 
 .logo-bottom {
-  margin-bottom: 20px;
   margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .header-item:not(:last-child) {
@@ -414,12 +414,10 @@ ul {
 
 .contact-container {
   max-width: 231px;
-  max-height: 81px;
   margin-right: 70px;
 }
 .soc-container {
   max-width: 206px;
-  max-height: 80px;
 }
 
 .contact-item:not(:last-child) {
@@ -544,6 +542,16 @@ ul {
   flex-basis: calc(100% / 3 - var(--card-set-marg));
   margin-left: var(--card-set-marg);
   margin-top: var(--card-set-marg);
+}
+
+.card-set:hover,
+.card-set:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.link-portfolio {
+  text-decoration: none;
+  color: var(--basic-text-color);
 }
 
 .portfolio-bottom {
